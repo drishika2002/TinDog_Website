@@ -15,8 +15,18 @@ h1
 {
     font-family: 'Montserrat', sans-serif;
     font-size: 3.3rem;
-    line-height: 1.5;
-    
+    line-height: 1.5; 
+}
+
+h3
+{
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p
+{
+    color: #8f8f8f;
 }
 
 /* NAVIGATION BAR */
@@ -57,9 +67,28 @@ h1
     transform: rotateZ(25deg)
 }
 
+/* Features */
+
+#features
+{
+    padding: 6% 14%;
+}
+
+.feature-box
+{
+    text-align: center;
+    padding: 4.25%;
+}
 
 
 .icons
+{
+    align-items: center;
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icons:hover
 {
     color: #ff4c68;
 }
